@@ -1,0 +1,7 @@
+#  configuration must be configured to use the private key ~/.ssh/school
+# configuration must be configured to refuse to authenticate using a password
+
+host *
+	PasswordAuthentication no
+	# PasswordAuthentication no
+	IdentityFile ~/.ssh/school
