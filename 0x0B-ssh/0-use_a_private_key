@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script adds the public key to the server
+# stored in a file school Found in the users home directory
+
+ssh-copy-id -i ~/.ssh/school.pub ubuntu@100.26.132.5
+
